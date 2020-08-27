@@ -8,11 +8,11 @@ defmodule RumblWeb.ErrorView do
   # end
 
   def render("404.html", _assigns) do
-    "Page not found"
+    "Not Found"
   end
 
   def render("500.html", _assigns) do
-    "Internal server error"
+    "Internal Server Error"
   end
 
   # By default, Phoenix returns the status message from
